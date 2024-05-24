@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.ai-label {
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    padding: 5px 20px;
+    border-radius: 4px;
+}
+
+.ai-label.primary {
+    background-color: #DBEAF8;
+    color: #0074D3;
+}
+.ai-label.secondary {
+    background-color: #ececec;
+    color: #3C4043;
+}
+.ai-label.success {
+    background-color: #DBEEE8;
+    color: #00875A;
+}
+.ai-label.warning {
+    background-color: #FFF1CB;
+    color: #FF9F21;
+}
+.ai-label.error {
+    background-color: #fce6e3;
+    color: #E74C3C;
+}
+
+.ai-label.label-weight-light{
+    font-weight: 400;
+}
+.ai-label.label-weight-bold{
+    font-weight: 600;
+}
+
+.ai-label.label-size-small{
+    padding: 3px 10px;
+    font-size: 12px;
+}
+.ai-label.label-size-large{
+    padding: 6px 24px;
+    font-size: 16px;
+}

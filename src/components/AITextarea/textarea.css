@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.textarea-wrapper{
+    display: inline-block;
+}
+.ai-textarea-box {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 24px;
+    padding: 8px 12px;
+    background: #FFFFFF;
+    border: 1px solid #D3D8DC;
+    border-radius: 4px;
+    width: 100%;
+}
+.ai-textarea-box:focus {
+    outline: 2px solid #0074d3;
+    border: 1px solid transparent;
+}
+.ai-textarea-box::placeholder{
+    color: #9B9FA2;
+}
+.ai-textarea-box:disabled{
+    background: #F5F5F5;
+    color: #C2C2C2;
+    border: 1px solid transparent;
+}
+.ai-textarea-box.error-box{
+    outline: 2px solid #E74C3C;
+    border: 1px solid transparent;
+}
+.character-count-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    opacity: 0.6;
+}
+.character-count-wrapper small{
+    font-family: Roboto;
+    font-size: 12px;
+}
+.character-count-wrapper.margin-top{
+    margin-top: 5px;
+}
+.character-count-wrapper.margin-bottom{
+    margin-bottom: 5px;
+}
+
+.scrollbar-ui::-webkit-scrollbar{
+    width: 8px;
+}
+.scrollbar-ui::-webkit-scrollbar-track{
+	background: #ffffff;
+}
+.scrollbar-ui::-webkit-scrollbar-thumb{
+	background-color: #c3c4c6;
+    border-radius: 50px;
+    border: 2px solid #ffffff;
+}
