@@ -1,7 +1,7 @@
 {
-  "name": "ailaysa-ui-lib",
+  "name": "my-ui-lib",
   "version": "0.0.1",
-  "description": "React UI component library for Ailaysa.com.",
+  "description": "My React UI component library.",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "scripts": {
